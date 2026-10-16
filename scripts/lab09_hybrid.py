@@ -18,12 +18,15 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--factors", type=int, default=20)
 parser.add_argument("--epochs", type=int, default=12)
 parser.add_argument("--alpha", type=float, default=0.75)
+# Nuevas lineas
+parser.add_argument("--seed", type=int, default=42)
 args = parser.parse_args()
 
 ratings, movies = load_movielens(MOVIELENS_DIR)
 train, test = temporal_leave_one_out(ratings)
 start = perf_counter()
-model = MatrixFactorization(factors=args.factors).fit(train, epochs=args.epochs)
+#model = MatrixFactorization(factors=args.factors).fit(train, epochs=args.epochs)
+model = MatrixFactorization(factors=args.factors, seed=args.seed).fit(train, epochs=args.epochs)
 train_seconds = perf_counter() - start
 evaluable = test[test["userId"].isin(model.user_index) & test["movieId"].isin(model.item_index)]
 predictions = [model.predict(row.userId, row.movieId) for row in evaluable.itertuples()]
@@ -42,7 +45,8 @@ for user_id in evaluable["userId"].unique():
     history = train.loc[train["userId"].eq(user_id) & train["movieId"].isin(movie_row), ["movieId", "rating"]]
     history_rows = [movie_row[int(item)] for item in history["movieId"]]
     weights = np.clip(history["rating"].to_numpy() - 2.5, 0.1, None)
-    profile = genre_matrix[history_rows].multiply(weights[:, None]).sum(axis=0) / weights.sum()
+#   profile = genre_matrix[history_rows].multiply(weights[:, None]).sum(axis=0) / weights.sum()
+    profile = np.asarray(genre_matrix[history_rows].multiply(weights[:, None]).sum(axis=0) / weights.sum())
     candidate_rows = [movie_row[int(item)] for item in collaborative["movieId"]]
     content_scores = cosine_similarity(profile, genre_matrix[candidate_rows]).ravel()
     content_min, content_max = content_scores.min(), content_scores.max()
@@ -57,6 +61,8 @@ metrics = {
     "factors": args.factors,
     "epochs": args.epochs,
     "alpha": args.alpha,
+    #nueva linea
+    "seed": args.seed,
     "cold_start_policy": "popularidad por cantidad y media; no personalizada",
 }
 (ROOT / "reports").mkdir(exist_ok=True)
