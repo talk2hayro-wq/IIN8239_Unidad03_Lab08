@@ -1,0 +1,91 @@
+perfil,userId,valoraciones_train,politica,alpha,seed,rank,movieId,title,visto_en_train
+historial_amplio,414,2697,popularidad_conteo,,,1,1258,"Shining, The (1980)",False
+historial_amplio,414,2697,popularidad_conteo,,,2,8368,Harry Potter and the Prisoner of Azkaban (2004),False
+historial_amplio,414,2697,popularidad_conteo,,,3,19,Ace Ventura: When Nature Calls (1995),False
+historial_amplio,414,2697,popularidad_conteo,,,4,2324,Life Is Beautiful (La Vita è bella) (1997),False
+historial_amplio,414,2697,popularidad_conteo,,,5,410,Addams Family Values (1993),False
+historial_amplio,414,2697,popularidad_conteo,,,6,1219,Psycho (1960),False
+historial_amplio,414,2697,popularidad_conteo,,,7,317,"Santa Clause, The (1994)",False
+historial_amplio,414,2697,popularidad_conteo,,,8,520,Robin Hood: Men in Tights (1993),False
+historial_amplio,414,2697,popularidad_conteo,,,9,74458,Shutter Island (2010),False
+historial_amplio,414,2697,popularidad_conteo,,,10,48385,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006),False
+historial_amplio,414,2697,contenido,,,1,82,Antonia's Line (Antonia) (1995),False
+historial_amplio,414,2697,contenido,,,2,96,In the Bleak Midwinter (1995),False
+historial_amplio,414,2697,contenido,,,3,106,Nobody Loves Me (Keiner liebt mich) (1994),False
+historial_amplio,414,2697,contenido,,,4,156,Blue in the Face (1995),False
+historial_amplio,414,2697,contenido,,,5,171,Jeffrey (1995),False
+historial_amplio,414,2697,contenido,,,6,178,Love & Human Remains (1993),False
+historial_amplio,414,2697,contenido,,,7,194,Smoke (1995),False
+historial_amplio,414,2697,contenido,,,8,272,"Madness of King George, The (1994)",False
+historial_amplio,414,2697,contenido,,,9,304,Roommates (1995),False
+historial_amplio,414,2697,contenido,,,10,324,"Sum of Us, The (1994)",False
+historial_amplio,414,2697,colaborativo,,42,1,2324,Life Is Beautiful (La Vita è bella) (1997),False
+historial_amplio,414,2697,colaborativo,,42,2,1203,12 Angry Men (1957),False
+historial_amplio,414,2697,colaborativo,,42,3,1219,Psycho (1960),False
+historial_amplio,414,2697,colaborativo,,42,4,914,My Fair Lady (1964),False
+historial_amplio,414,2697,colaborativo,,42,5,1230,Annie Hall (1977),False
+historial_amplio,414,2697,colaborativo,,42,6,246,Hoop Dreams (1994),False
+historial_amplio,414,2697,colaborativo,,42,7,1258,"Shining, The (1980)",False
+historial_amplio,414,2697,colaborativo,,42,8,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),False
+historial_amplio,414,2697,colaborativo,,42,9,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),False
+historial_amplio,414,2697,colaborativo,,42,10,92259,Intouchables (2011),False
+historial_amplio,414,2697,hibrido,0.75,42,1,2324,Life Is Beautiful (La Vita è bella) (1997),False
+historial_amplio,414,2697,hibrido,0.75,42,2,1203,12 Angry Men (1957),False
+historial_amplio,414,2697,hibrido,0.75,42,3,914,My Fair Lady (1964),False
+historial_amplio,414,2697,hibrido,0.75,42,4,92259,Intouchables (2011),False
+historial_amplio,414,2697,hibrido,0.75,42,5,1230,Annie Hall (1977),False
+historial_amplio,414,2697,hibrido,0.75,42,6,898,"Philadelphia Story, The (1940)",False
+historial_amplio,414,2697,hibrido,0.75,42,7,1219,Psycho (1960),False
+historial_amplio,414,2697,hibrido,0.75,42,8,44555,"Lives of Others, The (Das leben der Anderen) (2006)",False
+historial_amplio,414,2697,hibrido,0.75,42,9,1287,Ben-Hur (1959),False
+historial_amplio,414,2697,hibrido,0.75,42,10,74458,Shutter Island (2010),False
+historial_pequeno,53,19,popularidad_conteo,,,1,356,Forrest Gump (1994),False
+historial_pequeno,53,19,popularidad_conteo,,,2,318,"Shawshank Redemption, The (1994)",False
+historial_pequeno,53,19,popularidad_conteo,,,3,296,Pulp Fiction (1994),False
+historial_pequeno,53,19,popularidad_conteo,,,4,2571,"Matrix, The (1999)",False
+historial_pequeno,53,19,popularidad_conteo,,,5,593,"Silence of the Lambs, The (1991)",False
+historial_pequeno,53,19,popularidad_conteo,,,6,260,Star Wars: Episode IV - A New Hope (1977),False
+historial_pequeno,53,19,popularidad_conteo,,,7,110,Braveheart (1995),False
+historial_pequeno,53,19,popularidad_conteo,,,8,480,Jurassic Park (1993),False
+historial_pequeno,53,19,popularidad_conteo,,,9,589,Terminator 2: Judgment Day (1991),False
+historial_pequeno,53,19,popularidad_conteo,,,10,2959,Fight Club (1999),False
+historial_pequeno,53,19,contenido,,,1,72142,Love Exposure (Ai No Mukidashi) (2008),False
+historial_pequeno,53,19,contenido,,,2,4,Waiting to Exhale (1995),False
+historial_pequeno,53,19,contenido,,,3,11,"American President, The (1995)",False
+historial_pequeno,53,19,contenido,,,4,52,Mighty Aphrodite (1995),False
+historial_pequeno,53,19,contenido,,,5,58,"Postman, The (Postino, Il) (1994)",False
+historial_pequeno,53,19,contenido,,,6,94,Beautiful Girls (1996),False
+historial_pequeno,53,19,contenido,,,7,195,Something to Talk About (1995),False
+historial_pequeno,53,19,contenido,,,8,224,Don Juan DeMarco (1995),False
+historial_pequeno,53,19,contenido,,,9,232,Eat Drink Man Woman (Yin shi nan nu) (1994),False
+historial_pequeno,53,19,contenido,,,10,281,Nobody's Fool (1994),False
+historial_pequeno,53,19,colaborativo,,42,1,858,"Godfather, The (1972)",False
+historial_pequeno,53,19,colaborativo,,42,2,1208,Apocalypse Now (1979),False
+historial_pequeno,53,19,colaborativo,,42,3,1230,Annie Hall (1977),False
+historial_pequeno,53,19,colaborativo,,42,4,63082,Slumdog Millionaire (2008),False
+historial_pequeno,53,19,colaborativo,,42,5,1954,Rocky (1976),False
+historial_pequeno,53,19,colaborativo,,42,6,1213,Goodfellas (1990),False
+historial_pequeno,53,19,colaborativo,,42,7,47,Seven (a.k.a. Se7en) (1995),False
+historial_pequeno,53,19,colaborativo,,42,8,924,2001: A Space Odyssey (1968),False
+historial_pequeno,53,19,colaborativo,,42,9,41285,Match Point (2005),False
+historial_pequeno,53,19,colaborativo,,42,10,593,"Silence of the Lambs, The (1991)",False
+historial_pequeno,53,19,hibrido,0.75,42,1,858,"Godfather, The (1972)",False
+historial_pequeno,53,19,hibrido,0.75,42,2,1230,Annie Hall (1977),False
+historial_pequeno,53,19,hibrido,0.75,42,3,1208,Apocalypse Now (1979),False
+historial_pequeno,53,19,hibrido,0.75,42,4,63082,Slumdog Millionaire (2008),False
+historial_pequeno,53,19,hibrido,0.75,42,5,1954,Rocky (1976),False
+historial_pequeno,53,19,hibrido,0.75,42,6,41285,Match Point (2005),False
+historial_pequeno,53,19,hibrido,0.75,42,7,1213,Goodfellas (1990),False
+historial_pequeno,53,19,hibrido,0.75,42,8,924,2001: A Space Odyssey (1968),False
+historial_pequeno,53,19,hibrido,0.75,42,9,5673,Punch-Drunk Love (2002),False
+historial_pequeno,53,19,hibrido,0.75,42,10,2671,Notting Hill (1999),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,1,356,Forrest Gump (1994),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,2,318,"Shawshank Redemption, The (1994)",False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,3,296,Pulp Fiction (1994),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,4,2571,"Matrix, The (1999)",False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,5,593,"Silence of the Lambs, The (1991)",False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,6,260,Star Wars: Episode IV - A New Hope (1977),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,7,110,Braveheart (1995),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,8,480,Jurassic Park (1993),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,9,589,Terminator 2: Judgment Day (1991),False
+usuario_nuevo,611,0,fallback_popularidad_conteo,,,10,2959,Fight Club (1999),False
